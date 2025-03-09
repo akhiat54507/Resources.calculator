@@ -1,0 +1,10 @@
+# انتقل إلى مجلد المشروع
+cd path/to/your/project
+
+# حذف جميع الملفات من المستودع
+git rm -r --cached .
+git add .
+git commit -m "Reset repository"
+
+# دفع التغييرات إلى GitHub
+git push origin main --force
