@@ -1,0 +1,6 @@
+git clone https://github.com/akhiyat54507/Resources.calculator.git
+cd Resources.calculator
+cp -r /path/to/your/files/* .  # استبدل /path/to/your/files بمسار ملفاتك
+git add .
+git commit -m "إضافة الملفات الأولى"
+git push origin main
